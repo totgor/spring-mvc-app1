@@ -1,0 +1,19 @@
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>spring-mvc-app1</title>
+</head>
+
+<body>
+    <h1> Корень проекта jsp страница!</h1>
+    <h6>1. Создан каталог config и классы: SpringConfig и SpringMVCDispatcherServletInitializer.</h6>
+    <h6>2. SpringConfig наследует WebMvcConfigurer.</h6>
+    <h6>3. В SpringConfig создаются бины: которые подключают шаблоны Thymeleaf, указывают где искать шаблоны страниц html и где искать классы для бинов.</h6>
+    <h6>4. SpringMVCDispatcherServletInitializer наследует AbstractAnnotationConfigDispatcherServletInitializer.</h6>
+    <h6>5. В методе getServletConfigClasses указывается класс SpringConfig для конфигурирования mvc проекта</h6>
+    <h6>6. В методе getServletMappings указывается что все запросы обрабатывает диспечтер сервлетов.</h6>
+
+</body>
+
+</html>
