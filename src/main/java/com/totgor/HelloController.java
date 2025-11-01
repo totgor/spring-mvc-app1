@@ -16,7 +16,7 @@ public class HelloController {
     @GetMapping("/")
     public String home() {
         System.out.println(" === Home page requested === ");
-        return "hello_world";
+        return "main";
     }
     
 
